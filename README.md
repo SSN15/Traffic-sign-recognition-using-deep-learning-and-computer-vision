@@ -7,6 +7,7 @@ The goals / steps of this project are the following:
 5. Analyze the softmax probabilities of the new images
 
 **Dataset**
+
 The dataset used for this project is German Traffic Sign dataset provied by Institut für Neuroinformatik
 The relevant information about the dataset can be found in the following link:
 http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset#Overview
@@ -73,6 +74,8 @@ The data distribution of validation data after augmentation is shown below:
 **Model Architecture**
 
 The model used in this project is LeNet.
+I referred the foolowing paper for the implementation of LeNet Architetcture.
+http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf
 The details about the model architecture is shown in the table below.
 
 |    Layer      | Description   |
@@ -120,6 +123,14 @@ The results were 100% accurate and the result is shown below.
 ![Image of predresult6](https://github.com/SSN15/Traffic-sign-recognition-using-deep-learning-and-computer-vision/blob/master/prediction%20result/predictionresult6.png)
 
 
+**Reference Links**
+
+1. https://arxiv.org/pdf/1409.1556.pdf
+2. https://arxiv.org/pdf/1409.4842.pdf
+3. https://arxiv.org/abs/1812.03079
+4. https://arxiv.org/abs/1512.02325
+5. https://developer.nvidia.com/cudnn
+6. https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b#.vt3ax2kg9
 
 
 
